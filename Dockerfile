@@ -4,10 +4,8 @@ ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY dist ./dist/
+COPY dist ./
 
-COPY server.js ./
+RUN npm install serve
 
-RUN npm install express
-
-CMD ["node", "server"]
+CMD ["npx", "serve"]
