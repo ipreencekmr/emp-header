@@ -8,7 +8,7 @@ const twitterLink = "https://twitter.com/ipreencekmr";
 export const Links = () => {
     return (
         <div className="">
-            <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <ul className="navbar-nav flex-row ml-md-auto d-md-flex">
                 <li className="nav-item">
                     <a className="nav-link p-2" 
                         href={ githubLink } 
